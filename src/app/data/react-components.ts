@@ -1575,20 +1575,14 @@ export const REACT_COMPONENTS: any[] = [
       url: 'akiran/react-slick'
     },
     demo: {
-<<<<<<< HEAD
       repl: 'jsfiddle',
       user: 'kirana',
       id: '20bumb4g'
-=======
-      repl: 'custom',
-      src: 'http://neostack.com/opensource/react-slick'
->>>>>>> 406faa8c6b6f46f44e95ef5705af22f756159b49
     },
     framework: 'React',
     version: '0.15.4',
     license: 'MIT',
     details: 'http://neostack.com/opensource/react-slick',
-<<<<<<< HEAD
     keywords: ['slider','carousel']
   },
   {
@@ -1802,8 +1796,25 @@ export const REACT_COMPONENTS: any[] = [
     license: 'MIT',
     details: 'https://uber.github.io/react-vis/',
     keywords: ['charts']
-=======
-    keywords: ['loader']
->>>>>>> 406faa8c6b6f46f44e95ef5705af22f756159b49
+  },
+  {
+    id: 82,
+    name: 'react-sparkline',
+    install: {
+      packager: 'npm',
+      url: 'react-sparkline'
+    },
+    source: {
+      domain: 'github',
+      url: 'KyleAMathews/react-sparkline'
+    },
+    demo: {
+      repl: 'custom',
+      src: 'http://kyleamathews.github.io/react-sparkline/'
+    },
+    framework: 'React',
+    version: '2.0.0',
+    license: 'MIT',   details: 'https://github.com/KyleAMathews/react-sparkline',
+    keywords: ['charts']
   }
 ];
